@@ -22,5 +22,7 @@ test('user can fill out and submit form to add an animal', () => {
   userEvent.click(submitButton);
 
   // Assert
+  const newAnimal = screen.getByText(/mountain goat97/i);
+  
 
 })

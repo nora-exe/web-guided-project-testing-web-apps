@@ -15,6 +15,8 @@ test('user can fill out and submit form to add an animal', () => {
   const notesInput = screen.getByLabelText(/notes/i);
   const submitButton = screen.getByRole("button", { value: /submit!/i });
 
+  expect(submitButton).not.toBeDisabled();
+
   // Act: fill out and submit the form
   userEvent.type(speciesInput, "Mountain Goat97");
   userEvent.type(ageInput, "987");
@@ -24,5 +26,8 @@ test('user can fill out and submit form to add an animal', () => {
   // Assert
   const newAnimal = screen.getByText(/mountain goat97/i);
   
+  expect(newAnimal).toBeVisible();
+  expect(newAnimal).toBeDefined();
+  expect(newAnimal).not.toBeDisabled();
 
 })

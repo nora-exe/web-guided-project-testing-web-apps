@@ -7,8 +7,9 @@ test('renders App component without crashing', () => {
 });
 
 test('renders the app header', () => {
-  const stuff = render(<App />);
-  console.log(stuff);
+  const virtualDOM = render(<App />);
+  console.log(virtualDOM);
+  const header = virtualDOM.getByText("Add New Animal");
 });
 
 // BDD: Behavior Driven Development

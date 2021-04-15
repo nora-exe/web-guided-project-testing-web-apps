@@ -1,5 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import AnimalForm from "./AnimalForm";
 
 test('component renders without blowing up', () => {
@@ -15,6 +16,7 @@ test('user can fill out and submit form to add an animal', () => {
   const submitButton = screen.getByRole("button", { value: /submit!/i });
 
   // Act: fill out and submit the form
+
 
 
   // Assert

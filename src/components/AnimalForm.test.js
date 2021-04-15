@@ -15,7 +15,7 @@ test('user can fill out and submit form to add an animal', () => {
   const notesInput = screen.getByLabelText(/notes/i);
   const submitButton = screen.getByRole("button", { value: /submit!/i });
 
-  expect(submitButton).not.toBeDisabled();
+  expect(submitButton).not.toBeDisabled(); // (sometimes it makes sense to include mini-assertions like this as part of the arrange step)
 
   // Act: fill out and submit the form
   userEvent.type(speciesInput, "Mountain Goat97");

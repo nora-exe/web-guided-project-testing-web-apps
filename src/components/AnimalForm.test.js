@@ -16,7 +16,8 @@ test('user can fill out and submit form to add an animal', () => {
   const submitButton = screen.getByRole("button", { value: /submit!/i });
 
   // Act: fill out and submit the form
-
+  userEvent.type(speciesInput, "Mountain Goat");
+  
 
 
   // Assert

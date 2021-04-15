@@ -36,4 +36,4 @@ test('user can fill out and submit form to add an animal', () => {
 // Try edge cases with different input types in the form fields (see if they break or if the request fails, try a lot of variations to be sure)
 // Add several animals and make sure they all show up, and don't overwrite each other or any other weird behavior
 // Test duplicate entries and confirm the desired behavior
-// If type checks are required (ex: for age), test those too
+// If type checks or validations are required (ex: for age as a number below 100), test those too

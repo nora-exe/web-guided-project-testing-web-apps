@@ -10,11 +10,14 @@ test('renders the app header', () => {
   // Arrange (set up the virtual dom & find elements)
   const virtualDOM = render(<App />);
   const header = virtualDOM.getByText(/add new animal/i);
-  // ^ getByText includes an implicit assertion that there is 1 and only 1 matching element:
+  // ^ getByText includes an implicit assertion that there is 1 and only 1 matching element.
 
   // Act (for clicking a button or other interaction, not needed here)
 
   // Assert (test stuff!)
+  // Don't worry about being DRY in tests!
+  expect(header).toBeInTheDocument();
+  expect(header).toBeTruthy();
   
   
 });

@@ -11,5 +11,7 @@ test('user can fill out and submit form', () => {
 
   // Get the form inputs from the virtual DOM
   const speciesInput = screen.getByLabelText(/species/i);
+  const ageInput = screen.getByLabelText(/age/i);
+  const notesInput = screen.getByLabelText(/notes/i);
 
 })

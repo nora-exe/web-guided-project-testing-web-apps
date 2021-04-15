@@ -10,7 +10,7 @@ test('renders the app header', () => {
   const virtualDOM = render(<App />);
 
   // implicit assertion that there is 1 and only 1 matching element:
-  const header = virtualDOM.getByText("ADD NEW ANIMAL"); 
+  const header = virtualDOM.getByText(/add new animal/i); 
 });
 
 // BDD: Behavior Driven Development

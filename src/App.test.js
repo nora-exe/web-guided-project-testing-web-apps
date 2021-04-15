@@ -15,10 +15,11 @@ test('renders the app header', () => {
   // Act (for clicking a button or other interaction, not needed here)
 
   // Assert (test stuff!)
-  // Don't worry about being DRY in tests!
+  // Don't worry about being DRY in tests! We don't need all of these, but here are a bunch of examples of what to test :)
   expect(header).toBeInTheDocument();
   expect(header).toBeTruthy();
   expect(header).not.toBeFalsy();
+  expect(header).toBeVisible();
   
   
 });

@@ -8,6 +8,8 @@ test('component renders without blowing up', () => {
 
 test('user can fill out and submit form', () => {
   render(<AnimalForm />);
-  console.log(screen);
+
+  // Get the form inputs from the virtual DOM
+  const speciesInput = screen.getByLabelText(/species/i);
 
 })

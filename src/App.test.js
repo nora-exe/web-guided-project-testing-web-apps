@@ -20,6 +20,7 @@ test('renders the app header', () => {
   expect(header).toBeTruthy();
   expect(header).not.toBeFalsy();
   expect(header).toBeVisible();
+  expect(header).toHaveTextContent("AdD New Animal"); // use something like this if text casing matters
   
   
 });

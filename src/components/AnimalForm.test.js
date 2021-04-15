@@ -6,16 +6,16 @@ test('component renders without blowing up', () => {
   render(<AnimalForm />);
 })
 
-test('user can fill out and submit form', () => {
+test('user can fill out and submit form to add an animal', () => {
   // Arrange: render the element & get the form elements from the virtual DOM
   render(<AnimalForm />);
   const speciesInput = screen.getByLabelText(/species/i);
   const ageInput = screen.getByLabelText(/age/i);
   const notesInput = screen.getByLabelText(/notes/i);
   const submitButton = screen.getByRole("button", { value: /submit!/i });
-  console.log(submitButton);
 
-  // Act
+  // Act: fill out and submit the form
+
 
   // Assert
 })

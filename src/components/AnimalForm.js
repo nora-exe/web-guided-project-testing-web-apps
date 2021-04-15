@@ -11,7 +11,7 @@ const AnimalForm = ({ errors, touched, values }) => {
   ]);
   const [animal, setAnimal] = useState({ species: "", age: "", notes: "" });
 
-  // Handle changes from form inputs
+  // Handle changes from form inputsf
   const handleChange = event => {
     setAnimal({ ...animal, [event.target.name]: event.target.value });
   };

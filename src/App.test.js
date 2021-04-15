@@ -7,10 +7,15 @@ test('renders App component without crashing', () => {
 });
 
 test('renders the app header', () => {
+  // Arrange
   const virtualDOM = render(<App />);
-
-  // implicit assertion that there is 1 and only 1 matching element:
   const header = virtualDOM.getByText(/add new animal/i);
+
+  // Act (for clicking a button or other interaction, not needed here)
+
+  // Assert
+  // implicit assertion that there is 1 and only 1 matching element:
+  
 });
 
 // BDD: Behavior Driven Development

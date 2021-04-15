@@ -18,6 +18,7 @@ test('renders the app header', () => {
   // Don't worry about being DRY in tests!
   expect(header).toBeInTheDocument();
   expect(header).toBeTruthy();
+  expect(header).not.toBeFalsy();
   
   
 });

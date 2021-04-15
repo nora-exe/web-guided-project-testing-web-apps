@@ -17,8 +17,8 @@ test('user can fill out and submit form to add an animal', () => {
 
   // Act: fill out and submit the form
   userEvent.type(speciesInput, "Mountain Goat");
-  
-
+  userEvent.type(ageInput, "987");
+  userEvent.type(notesInput, "Recently trimmed my beard. Feeling great!!");
 
   // Assert
 })

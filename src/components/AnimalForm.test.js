@@ -12,7 +12,7 @@ test('user can fill out and submit form', () => {
   const speciesInput = screen.getByLabelText(/species/i);
   const ageInput = screen.getByLabelText(/age/i);
   const notesInput = screen.getByLabelText(/notes/i);
-  const submitButton = screen.getByRole("button", {text: /submit/i})
+  const submitButton = screen.getByRole("button", {value: /subasdfmit/i})
 
   // Act
 

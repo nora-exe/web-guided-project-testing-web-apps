@@ -26,6 +26,7 @@ test('user can fill out and submit form to add an animal', () => {
   // Assert
   const newAnimal = screen.getByText(/mountain goat97/i);
   
+  // getByText already has an implicit assertion, but we can be extra safe with additional assertions like these:
   expect(newAnimal).toBeVisible();
   expect(newAnimal).toBeDefined();
   expect(newAnimal).not.toBeDisabled();

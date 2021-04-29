@@ -1,68 +1,34 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Notes
+🎥https://youtu.be/Sd75Tf16y2Y
 
-In the project directory, you can run:
+## Key Terminology:
+* 📝 RTL queries - [React Testing Library queries allow uses to select elements from the DOM for testing.](https://testing-library.com/docs/react-testing-library/cheatsheet/) + [More info here.](https://testing-library.com/docs/queries/about)
 
-### `npm start`
+* 📝 ARIA roles - [DOM elements that have role attributes automatically assigned to them.](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* 📝 expect - [expect is a jest method used to test the value of an element](https://jestjs.io/docs/en/expect.html)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* 📝userEvent / fireEvent - [userEvent is a react testing library method used to simulate user input. userEvent is a more advanced and simplified version of fireevent.](https://testing-library.com/docs/ecosystem-user-event/)
 
-### `npm test`
+* 📝regular expressions - [A regular expression (shortened as regex or regexp) is a sequence of characters that define a search pattern](https://www.youtube.com/watch?v=sXQxhojSdZM)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* 📝async / await - [A javascript idea that allows for a more streamline processing of promises.](https://javascript.info/async-await)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Key Concepts:
+* 📝 end-to-end tests - [a testing method that involves testing an application’s workflow from beginning to end. This method basically aims to replicate real user scenarios.](https://www.browserstack.com/guide/end-to-end-testing)
+* 📝 integration tests - [A method of software testing where individual components or units of code are tested to validate user interactions.](https://www.testingxperts.com/blog/what-is-integration-testing#What%20is%20Integration%20Testing?)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* 📝 unit tests - [A level of software testing where individual units / components of a software are tested. The purpose is to validate that each unit of the software performs as designed.](https://softwaretestingfundamentals.com/unit-testing/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* 📝 react testing library - [a light-weight solution for testing React components.](https://testing-library.com/docs/react-testing-library/intro/)
 
-### `npm run eject`
+* 📝 test driven development - [A programming methodology that encourages early testing and later ui development](https://www.youtube.com/watch?v=y8TcPr73Bwo)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## MP
+* 🎥https://www.loom.com/share/94ff7b7e39c349d4875dfd607e10e0e3
+* ⚙ https://github.com/nora-exe/web-module-project-testing-web-apps/tree/nora-corser
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
